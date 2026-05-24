@@ -72,14 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Loveable app" },
+      { name: "description", content: "German Call Companion provides live translation and AI assistance for phone calls in Germany." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Loveable app" },
+      { property: "og:description", content: "German Call Companion provides live translation and AI assistance for phone calls in Germany." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Loveable app" },
+      { name: "twitter:description", content: "German Call Companion provides live translation and AI assistance for phone calls in Germany." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/813f5017-215f-4220-8ade-1dc36f75cf34/id-preview-cc1ba037--799fdbfb-9878-43da-a949-bfd5f7e72ee0.lovable.app-1779650485568.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/813f5017-215f-4220-8ade-1dc36f75cf34/id-preview-cc1ba037--799fdbfb-9878-43da-a949-bfd5f7e72ee0.lovable.app-1779650485568.png" },
     ],
     links: [
       {
